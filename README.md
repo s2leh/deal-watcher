@@ -28,23 +28,8 @@ Product prices can change frequently, and repeatedly checking product pages is i
 
 ## Architecture
 
-```text
-User / Agent
-    |
-    +--> CLI or MCP server
-    |       |
-    |       +--> preview product --> Playwright scraper --> Amazon.sa
-    |       +--> approval token --> SQLite pending action
-    |       +--> explicit confirm --> tracked product in SQLite
-    |
-    +--> Background worker
-            |
-            +--> load due products from SQLite
-            +--> scrape Amazon.sa with Playwright
-            +--> evaluate alert conditions
-            +--> send Telegram alert when required
-            +--> persist price history and next check time
-```
+<img width="911" height="945" alt="deal watcher agent workflow" src="https://github.com/user-attachments/assets/843baabe-987e-4321-be66-e0a0b207e90f" />
+
 
 The main modules are deliberately separated by responsibility:
 

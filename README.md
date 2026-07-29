@@ -26,7 +26,7 @@ Product prices can change frequently, and repeatedly checking product pages is i
 - MCP tools for agent integrations.
 - Windows Scheduled Task helpers for starting the worker at user logon.
 
-## Architecture
+## Workflow
 
 <img width="611" height="645" alt="deal watcher agent workflow" src="https://github.com/user-attachments/assets/843baabe-987e-4321-be66-e0a0b207e90f" />
 

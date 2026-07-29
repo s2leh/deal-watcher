@@ -1,0 +1,84 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.env
+*.env.*
+!*.env.example
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python caches and test/build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Runtime data and SQLite sidecar files
+data/*.db
+data/*.db-wal
+data/*.db-shm
+data/*.db-journal
+data/*.sqlite
+data/*.sqlite3
+
+# Logs, locks, and process-local state
+logs/
+*.log
+*.lock
+*.pid
+
+# OAuth, API credentials, private keys, and local auth state
+credentials/
+.credentials/
+credentials*
+*credentials*
+oauth/
+.oauth/
+oauth*.json
+*oauth*.json
+client_secret*.json
+*client-secret*.json
+service_account*.json
+service-account*.json
+auth.local.*
+token*.json
+*token*.json
+secrets/
+.secret/
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Hermes local profiles and machine-specific agent state
+.hermes/
+hermes/profiles/
+**/hermes/profiles/
+**/profiles/*/credentials*
+SOUL.md
+
+# IDE, editor, and OS-specific files
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local configuration overrides
+*.local
+*.local.*
+config.local.*

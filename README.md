@@ -28,7 +28,7 @@ Product prices can change frequently, and repeatedly checking product pages is i
 
 ## Architecture
 
-<img width="911" height="945" alt="deal watcher agent workflow" src="https://github.com/user-attachments/assets/843baabe-987e-4321-be66-e0a0b207e90f" />
+<img width="611" height="645" alt="deal watcher agent workflow" src="https://github.com/user-attachments/assets/843baabe-987e-4321-be66-e0a0b207e90f" />
 
 
 The main modules are deliberately separated by responsibility:
